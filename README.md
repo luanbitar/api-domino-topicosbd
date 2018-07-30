@@ -6,7 +6,7 @@ https://apidomino.herokuapp.com/api/duplas
 
 ## Ambiente local
 
-Clone ou baixe o projeto, entre na pasta apidomino/ e execute o comando:
+Clone ou baixe o projeto, entre na pasta ```apidomino/``` e execute o comando:
 ```
 docker-compose up
 ```
