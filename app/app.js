@@ -205,7 +205,7 @@ app.patch('/api/partida/:id', function (req, res, next) {
   }
 });
 
-// jogos
+// // jogos
 var jogoSchema = mongo.Schema({
   dupla_vencedora: String,
   partida        : String,
@@ -303,6 +303,6 @@ app.patch('/api/jogo/:id', function (req, res, next) {
   }
 });
 //Porta do servidor
-app.listen(8080, function() {
-	console.log('Porta:', 8080);
+app.listen(process.env.PORT || 8080, function() {
+	console.log('Porta:', process.env.PORT || 8080);
 });
