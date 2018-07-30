@@ -6,7 +6,7 @@ https://apidomino.herokuapp.com/api/duplas
 
 ## Ambiente local
 
-Clone ou baixe o projeto, entre na pasta e execute o comando:
+Clone ou baixe o projeto, entre na pasta apidomino/ e execute o comando:
 ```
 docker-compose up
 ```
@@ -15,7 +15,7 @@ Para rodar o projeto totalmente sem internet é só trocar a url do mongo, desco
 
 
 ## Requisições
-Todas as requisições ```POST, PUT e PATCH``` devem ser realizadas utilizando ```x-www-form-urlencoded```.
+Todas as requisições ```POST, PUT e PATCH``` devem utilizar o content-type ```application/x-www-form-urlencoded```.
 
 As requisições ```PUT, PATCH e DELETE``` devem passar o _id do elemento na rota.
 
